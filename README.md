@@ -29,7 +29,7 @@ A modern HR Management System built with **React (Vite)** for the frontend and *
 
 | Layer        | Tech                    |
 |--------------|-------------------------|
-| Frontend     | React.js (Vite), Axios, TailwindCSS |
+| Frontend     | React.js (Vite), Axios, Vanila CSS |
 | Backend      | Node.js, Express.js     |
 | Database     | MongoDB + Mongoose      |
 | Auth         | JWT Authentication      |
