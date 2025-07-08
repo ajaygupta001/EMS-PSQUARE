@@ -1,0 +1,91 @@
+
+.candidate-page {
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  /* min-height: 100vh; */
+}
+
+.candidate-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.filters {
+  display: flex;
+  gap: 10px;
+}
+
+.filter-select {
+  padding: 8px 16px;
+  border: 1px solid #d2d2d2;
+  border-radius: 20px;
+  background: white;
+  font-size: 14px;
+  outline: none;
+}
+
+.search-and-add {
+  display: flex;
+  gap: 12px;
+}
+
+.candidate-search {
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 14px;
+  width: 220px;
+}
+
+.add-candidate-btn {
+  padding: 8px 20px;
+  background-color: #4b0082;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.add-candidate-btn:hover {
+  background-color: #360061;
+}
+
+.candidate-table table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.candidate-table th,
+.candidate-table td {
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+.candidate-table th {
+  background-color: #4b0082;
+  color: white;
+  font-weight: 600;
+}
+
+.candidate-table select {
+  padding: 5px 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.action-col {
+  display: flex;
+  gap: 8px;
+}
+
+

@@ -1,0 +1,58 @@
+.login-container, .register-container {
+  display: flex;
+  height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.login-left, .register-left {
+  flex: 1;
+  background: #5e0acc;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+.login-left img, .register-left img {
+  width: 90%;
+  border-radius: 10px;
+}
+
+.login-right, .register-right {
+  flex: 1;
+  background: #fff;
+  padding: 3rem;
+}
+
+.login-right h2, .register-right h2 {
+  margin-bottom: 1.5rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-bottom: 1rem;
+  padding: 0.8rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #5e0acc;
+  color: #fff;
+  padding: 0.9rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4a0ab3;
+}
+
+a {
+  color: #5e0acc;
+  text-decoration: none;
+}

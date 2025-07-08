@@ -1,0 +1,68 @@
+
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-box {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  width: 700px;
+  position: relative;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.close-btn {
+  background: #4b0082;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.modal-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+.modal-form input[type="text"],
+.modal-form input[type="email"],
+.modal-form input[type="number"],
+.modal-form input[type="file"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.checkbox-declare {
+  grid-column: span 2;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.save-btn {
+  grid-column: span 2;
+  background-color: #4b0082;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 10px;
+}
